@@ -1,10 +1,10 @@
 <!--
-*************************************
-* Projeto Busca de Ramais Simples em*
-* PHP e MySQL.						*
+*****************************************
+* Projeto Busca de Ramais Simples em	*
+* PHP e MySQL.				*
 * Data Busca de Ramais 04/dez/2017	*
-* Última revisão: henrique			*
-*************************************
+* Última revisão: henrique		*
+*****************************************
 -->
 <?php
 header('Content-type: text/html; charset=ISO-8859-1');
@@ -15,7 +15,7 @@ header('Content-type: text/html; charset=ISO-8859-1');
 //mb_regex_encoding("UTF-8");
 //ob_start("mb_output_handler");
 // definições de host, database, usuário e senha
-$host = "mysql.endereço.do.bd";   //endereço do banco
+$host = "mysql.endereço.do.bd";   
 $db   = "nome_do_banco";
 $user = "usuario";
 $pass = "senha";
